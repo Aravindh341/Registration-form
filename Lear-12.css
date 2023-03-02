@@ -2,13 +2,15 @@
   box-sizing: border-box;
 }
 body {
-  background-color: rgb(0, 132, 255);
+  background-color: rgb(64, 126, 241);
   /*padding: 160px;*/
   font-family: system-ui;
 }
-span {
-  display: table-row;
-  line-height: 70px;
+h1{
+  padding-bottom: 13px;
+}
+div {
+  padding-bottom: 30px;
 }
 .form-design {
   background-color: #fff;
@@ -16,215 +18,258 @@ span {
   box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.08);
   float: left;
   padding: 40px;
+  width: auto;
+  height: auto;
 }
 .content {
   float: right;
 }
 input {
-  width: 400px;
-  height: 30px;
+  width: 539px;
+  height: 67px;
   border-radius: 8px;
-  font-size: 17px;
+  font-size: 22px;
   border: 1px solid gray;
   /* text-align: center; */
   padding: 10px;
 }
 #checkbox {
-  width: 25px;
+  width: 20px;
   float: left;
+  margin-top: -15px;
 }
 p {
   padding-left: 42px;
   margin-top: 10px;
   color: gray;
+  font-weight: 500;
 }
 
 #button {
-  background-color: rgb(0, 132, 255);
-  color: #fff;
-  width: 422px;
-  height: 47px;
-  font-family: system-ui;
+  background-color: rgb(64, 126, 241);
+    color: #fff;
+    width: 539px;
+    border-radius: 8px;
+    border: 1px solid gray;
+    height: 67px;
+    font-family: system-ui;
+    font-size: 30px;
+}
+.last{
+  margin-left: 92px;
+  font-size: 18px;
 }
 .content {
   float: right;
-  color: #fff;
-  font-size: xxx-large;
-  width: min-content;
-  /* padding-right: 278px;*/
+    color: #fff;
+    font-size: 65px;
+    width: min-content;
+    /* padding-right: 278px;*/
 }
 .full-content {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 59px;
-  padding-top: 145px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 120px;
+    padding-top: 145px;
+    margin-top: -68px;
 }
 @media only screen and (max-width: 1440px) {
   input {
-    width: 300px;
-    height: 27px;
-    font-size: 13px;
+    width: 346px;
+    height: 50px;
+    font-size: 17px;
   }
   .form-design {
-    padding: 12px;
-    width: 340px;
+    padding: 25px;
+    width: 400px;
+    height: 605px;
+    margin-top: -42px;
   }
-  .full-content {
-    padding: 0px;
-    gap: 40px;
-    padding-top: 125px;
-  }
+  
   #button {
-    width: 300px;
-    height: 37px;
+    width: 350px;
+    height: 48px;
+    font-size: 20px;
   }
-  span {
-    line-height: 42px;
+  h1{
+    font-size: 23px;
   }
-  h2 {
-    font-size: 18px;
+  .last{
+    margin-left: 48px;
+    font-size: 16px;
   }
   p {
     padding: 0px;
-    font-size: 12px;
-    padding-left: 36px;
+    margin-top: 2px;
+    font-size: 14px;
   }
   .content {
     width: 246px;
-    font-size: 30px;
+    font-size: 27px;
   }
-  #checkbox {
-    width: 16px;
+  .content1{
+    font-size: 80px;
+    margin-top: 0px;
   }
 }
 
 @media only screen and (max-width: 1024px) {
   input {
-    width: 300px;
-    height: 27px;
-    font-size: 13px;
+    width: 346px;
+    height: 50px;
+    font-size: 17px;
   }
   .form-design {
-    padding: 12px;
-    width: 340px;
+    padding: 25px;
+    width: 400px;
+    height: 605px;
+    margin-top: -42px;
   }
-  .full-content {
-    padding: 0px;
-    gap: 40px;
-    padding-top: 125px;
-  }
+  
   #button {
-    width: 300px;
-    height: 37px;
+    width: 350px;
+    height: 48px;
+    font-size: 20px;
   }
-  span {
-    line-height: 42px;
+  h1{
+    font-size: 23px;
   }
-  h2 {
-    font-size: 18px;
+  .last{
+    margin-left: 48px;
+    font-size: 16px;
   }
   p {
     padding: 0px;
-    font-size: 12px;
-    padding-left: 36px;
+    margin-top: 2px;
+    font-size: 14px;
   }
   .content {
     width: 246px;
-    font-size: 28px;
+    font-size: 27px;
   }
-  #checkbox {
-    width: 16px;
+  .content1{
+    font-size: 70px;
+    margin-top: 0px;
   }
 }
 
 @media only screen and (max-width: 768px) {
   input {
-    width: 300px;
-    height: 27px;
-    font-size: 13px;
+    width: 346px;
+    height: 50px;
+    font-size: 17px;
   }
   .form-design {
-    padding: 12px;
-    width: 340px;
+    padding: 25px;
+    width: 400px;
+    height: 605px;
+    margin-top: -42px;
   }
-  .full-content {
-    padding: 0px;
-    gap: 40px;
-    padding-top: 125px;
-  }
+  
   #button {
-    width: 300px;
-    height: 37px;
+    width: 350px;
+    height: 48px;
+    font-size: 20px;
   }
-  span {
-    line-height: 42px;
+  h1{
+    font-size: 23px;
   }
-  h2 {
-    font-size: 18px;
+  .last{
+    margin-left: 48px;
+    font-size: 16px;
   }
   p {
     padding: 0px;
-    font-size: 12px;
-    padding-left: 36px;
+    margin-top: 2px;
+    font-size: 14px;
   }
   .content {
     width: 246px;
-    font-size: 25px;
+    font-size: 27px;
   }
-  #checkbox {
-    width: 16px;
+  .content1{
+    font-size: 60px;
+    margin-top: 0px;
   }
 }
 
 @media only screen and (max-width: 425px) {
   input {
-    width: 365px;
+    width: 346px;
     height: 50px;
+    font-size: 17px;
   }
   .form-design {
-    padding: 12px;
-    width: 406px;
+    padding: 25px;
+    width: 400px;
+    height: 605px;
+    margin-top: -42px;
   }
-  .full-content {
-    padding: 0px;
-    gap: 13px;
-  }
+  
   #button {
-    width: 365px;
+    width: 350px;
+    height: 48px;
+    font-size: 20px;
+  }
+  h1{
+    font-size: 23px;
+  }
+  .last{
+    margin-left: 48px;
+    font-size: 16px;
   }
   p {
-    padding: 10px;
+    padding: 0px;
+    margin-top: 2px;
+    font-size: 14px;
   }
   .content {
     width: 246px;
-    font-size: 25px;
+    font-size: 27px;
+  }
+  .content1{
+    font-size: 50px;
+    margin-top: 0px;
   }
 }
 
 @media only screen and (max-width: 375px) {
   input {
-    width: 295px;
+    width: 276px;
     height: 50px;
   }
   .form-design {
-    padding: 12px;
-    width: 347px;
+    padding: 25px;
+    width: 342px;
+    height: 605px;
+    margin-top: -42px;
   }
-  .full-content {
-    padding: 0px;
-    gap: 15px;
-  }
+  
   #button {
-    width: 298px;
+    width: 278px;
+    height: 48px;
+    font-size: 20px;
+  }
+  h1{
+    font-size: 23px;
+  }
+  .last{
+    margin-left: 0px;
+    font-size: 16px;
   }
   p {
-    padding: 10px;
+        padding: 0px;
+    margin-top: 4px;
+    font-size: 13px;
   }
   .content {
     width: 246px;
-    font-size: 22px;
+    font-size: 27px;
+  }
+  .content1{
+    font-size: 44px;
   }
 }
 
@@ -234,20 +279,34 @@ p {
     height: 50px;
   }
   .form-design {
-    padding: 8px;
+    padding: 16px;
     width: 300px;
+    height: 605px;
+    margin-top: -42px;
   }
-  .full-content {
-    padding: 0px;
-  }
+  
   #button {
     width: 270px;
+    height: 48px;
+    font-size: 20px;
+  }
+  h1{
+    font-size: 23px;
+  }
+  .last{
+    margin-left: 0px;
+    font-size: 16px;
   }
   p {
-    padding: 10px;
+        padding: 0px;
+    margin-top: 4px;
+    font-size: 13px;
   }
   .content {
     width: 246px;
     font-size: 27px;
+  }
+  .content1{
+    font-size: 44px;
   }
 }
