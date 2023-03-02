@@ -6,7 +6,7 @@ body {
   /*padding: 160px;*/
   font-family: system-ui;
 }
-h1{
+h1 {
   padding-bottom: 13px;
 }
 div {
@@ -47,191 +47,195 @@ p {
 
 #button {
   background-color: rgb(64, 126, 241);
-    color: #fff;
-    width: 539px;
-    border-radius: 8px;
-    border: 1px solid gray;
-    height: 67px;
-    font-family: system-ui;
-    font-size: 30px;
+  color: #fff;
+  width: 539px;
+  border-radius: 8px;
+  border: 1px solid gray;
+  height: 67px;
+  font-family: system-ui;
+  font-size: 30px;
 }
-.last{
+.last {
   margin-left: 92px;
   font-size: 18px;
 }
 .content {
   float: right;
-    color: #fff;
-    font-size: 65px;
-    width: min-content;
-    /* padding-right: 278px;*/
+  color: #fff;
+  font-size: 65px;
+  width: min-content;
+  /* padding-right: 278px;*/
 }
 .full-content {
   display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 120px;
-    padding-top: 145px;
-    margin-top: -68px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 120px;
+  padding-top: 145px;
+  margin-top: -68px;
 }
 @media only screen and (max-width: 1440px) {
   input {
-    width: 346px;
+    width: 340px;
     height: 50px;
-    font-size: 17px;
   }
   .form-design {
     padding: 25px;
-    width: 400px;
+    width: 405px;
     height: 605px;
-    margin-top: -42px;
+    margin-top: 0px;
   }
-  
+
   #button {
-    width: 350px;
+    width: 340px;
     height: 48px;
     font-size: 20px;
   }
-  h1{
+  h1 {
     font-size: 23px;
   }
-  .last{
-    margin-left: 48px;
+  .last {
+    margin-left: 33px;
     font-size: 16px;
   }
   p {
     padding: 0px;
-    margin-top: 2px;
-    font-size: 14px;
+    margin-top: 4px;
+    font-size: 13px;
   }
   .content {
-    width: 246px;
-    font-size: 27px;
+    width: 200px;
+    height: 0px;
+    font-size: 1px;
+    margin-top: -84px;
   }
-  .content1{
-    font-size: 80px;
-    margin-top: 0px;
+  .content1 {
+    font-size: 67px;
+    margin: -95px;
   }
 }
 
 @media only screen and (max-width: 1024px) {
   input {
-    width: 346px;
+    width: 340px;
     height: 50px;
-    font-size: 17px;
   }
   .form-design {
     padding: 25px;
-    width: 400px;
+    width: 405px;
     height: 605px;
-    margin-top: -42px;
+    margin-top: 0px;
   }
-  
+
   #button {
-    width: 350px;
+    width: 340px;
     height: 48px;
     font-size: 20px;
   }
-  h1{
+  h1 {
     font-size: 23px;
   }
-  .last{
-    margin-left: 48px;
+  .last {
+    margin-left: 33px;
     font-size: 16px;
   }
   p {
     padding: 0px;
-    margin-top: 2px;
-    font-size: 14px;
+    margin-top: 4px;
+    font-size: 13px;
   }
   .content {
-    width: 246px;
-    font-size: 27px;
+    width: 200px;
+    height: 0px;
+    font-size: 1px;
+    margin-top: -84px;
   }
-  .content1{
-    font-size: 70px;
-    margin-top: 0px;
+  .content1 {
+    font-size: 67px;
+    margin: -95px;
   }
 }
 
 @media only screen and (max-width: 768px) {
   input {
-    width: 346px;
+    width: 340px;
     height: 50px;
-    font-size: 17px;
   }
   .form-design {
     padding: 25px;
-    width: 400px;
+    width: 405px;
     height: 605px;
-    margin-top: -42px;
+    margin-top: 0px;
   }
-  
+
   #button {
-    width: 350px;
+    width: 340px;
     height: 48px;
     font-size: 20px;
   }
-  h1{
+  h1 {
     font-size: 23px;
   }
-  .last{
-    margin-left: 48px;
+  .last {
+    margin-left: 33px;
     font-size: 16px;
   }
   p {
     padding: 0px;
-    margin-top: 2px;
-    font-size: 14px;
+    margin-top: 4px;
+    font-size: 13px;
   }
   .content {
-    width: 246px;
-    font-size: 27px;
+    width: 200px;
+    height: 0px;
+    font-size: 1px;
+    margin-top: -84px;
   }
-  .content1{
-    font-size: 60px;
-    margin-top: 0px;
+  .content1 {
+    font-size: 67px;
+    margin: -95px;
   }
 }
 
 @media only screen and (max-width: 425px) {
   input {
-    width: 346px;
+    width: 340px;
     height: 50px;
-    font-size: 17px;
   }
   .form-design {
     padding: 25px;
-    width: 400px;
+    width: 405px;
     height: 605px;
-    margin-top: -42px;
+    margin-top: -70px;
   }
-  
+
   #button {
-    width: 350px;
+    width: 340px;
     height: 48px;
     font-size: 20px;
   }
-  h1{
+  h1 {
     font-size: 23px;
   }
-  .last{
-    margin-left: 48px;
+  .last {
+    margin-left: 33px;
     font-size: 16px;
   }
   p {
     padding: 0px;
-    margin-top: 2px;
-    font-size: 14px;
+    margin-top: 4px;
+    font-size: 13px;
   }
   .content {
-    width: 246px;
-    font-size: 27px;
+    width: 200px;
+    height: 0px;
+    font-size: 1px;
+    margin-top: -84px;
   }
-  .content1{
-    font-size: 50px;
-    margin-top: 0px;
+  .content1 {
+    font-size: 53px;
+    margin: -26px;
   }
 }
 
@@ -242,33 +246,35 @@ p {
   }
   .form-design {
     padding: 25px;
-    width: 342px;
+    width: 349px;
     height: 605px;
-    margin-top: -42px;
+    margin-top: -70px;
   }
-  
+
   #button {
     width: 278px;
     height: 48px;
     font-size: 20px;
   }
-  h1{
+  h1 {
     font-size: 23px;
   }
-  .last{
+  .last {
     margin-left: 0px;
     font-size: 16px;
   }
   p {
-        padding: 0px;
+    padding: 0px;
     margin-top: 4px;
     font-size: 13px;
   }
   .content {
-    width: 246px;
-    font-size: 27px;
+    width: 200px;
+    height: 0px;
+    font-size: 1px;
+    margin-top: -84px;
   }
-  .content1{
+  .content1 {
     font-size: 44px;
   }
 }
@@ -282,31 +288,33 @@ p {
     padding: 16px;
     width: 300px;
     height: 605px;
-    margin-top: -42px;
+    margin-top: -70px;
   }
-  
+
   #button {
     width: 270px;
     height: 48px;
     font-size: 20px;
   }
-  h1{
+  h1 {
     font-size: 23px;
   }
-  .last{
+  .last {
     margin-left: 0px;
     font-size: 16px;
   }
   p {
-        padding: 0px;
+    padding: 0px;
     margin-top: 4px;
     font-size: 13px;
   }
   .content {
-    width: 246px;
-    font-size: 27px;
+    width: 200px;
+    height: 0px;
+    font-size: 1px;
+    margin-top: -84px;
   }
-  .content1{
+  .content1 {
     font-size: 44px;
   }
 }
