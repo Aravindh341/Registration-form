@@ -50,6 +50,7 @@ p {
   width: 35%;
   height: 67px;
   background-color: rgb(0, 153, 255);
+  border: 2px solid rgb(0, 153, 255);
   color: #fff;
   margin-left: 32%;
   font-size: 22px;
