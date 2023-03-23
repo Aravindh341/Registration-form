@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://cdn.ckeditor.com/4.9.2/standard/ckeditor.js"></script>
+</head>
+<body>
+  <h1>NotePad</h1>
+  <form>
+    <label for="message">Message:</label>
+    <textarea id="message"></textarea>
+    <br><br>
+    <button type="button" onclick="submitMessage()">Save</button>
+    <button type="button" onclick="editMessage()">Edit</button>
+    <button type="button" onclick="deleteMessage()">Delete</button>
+  </form>
+  <div id="messageList"></div>
+  <script>
+
+    CKEDITOR.replace('message');
+    let messages = [];
+    let currentIndex = -1;
+
+    function submitMessage() {
+      let message1 = CKEDITOR.instances.message.getData();
+      messages.push(message1);
+      currentIndex = messages.length - 1;
+      display();
+    }
+
+    function display() {
+      let messageList = document.getElementById("messageList");
+      messageList.innerHTML = "";
+      for (let i = 0; i < messages.length; i++) {
+        let messageItem = document.createElement("div");
+        messageItem.innerHTML = messages[i];
+        messageItem.dataset.index = i;
+        messageItem.onclick = function() {
+          currentIndex = parseInt(this.dataset.index);
+        };
+        messageList.appendChild(messageItem);
+      }
+    }
+
+    function editMessage() {
+      if (currentIndex >= 0 && currentIndex < messages.length) {
+        let message1 = CKEDITOR.instances.message;
+        message1.setData(messages[currentIndex]);
+        messages.splice(currentIndex, 1);
+        currentIndex = -1;
+        display();
+      }
+    }
+
+    function deleteMessage() {
+      if (currentIndex >= 0 && currentIndex < messages.length) {
+        messages.splice(currentIndex, 1);
+        currentIndex = -1;
+        display();
+      }
+    }
+  </script>
+</body>
+</html>
